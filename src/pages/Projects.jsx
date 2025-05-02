@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
+import Sidebar from "../components/FloatingBtn";
+
 
 const Projects = () => {
   return (
     <section className='max-container'>
+      <Sidebar></Sidebar>
       <h1 className='head-text'>
         My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>

@@ -5,6 +5,7 @@ import { Suspense, useRef, useState } from "react";
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
+import Sidebar from "../components/FloatingBtn";
 
 const Contact = () => {
   const formRef = useRef();
@@ -73,6 +74,7 @@ const Contact = () => {
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
+      <Sidebar></Sidebar>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>

@@ -2,6 +2,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import FloatingBtn from "../components/FloatingBtn";
 
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
@@ -10,7 +11,10 @@ import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
-    <section className='max-container'>
+    <>
+    <FloatingBtn></FloatingBtn>
+    <section className='max-container relative'>
+      
       <h1 className='head-text'>
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
@@ -109,6 +113,7 @@ const About = () => {
 
       {/* <CTA /> */}
     </section>
+    </>
   );
 };
 
