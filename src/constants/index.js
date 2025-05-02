@@ -5,6 +5,7 @@ import figma from "../assets/icons/figma.svg"
 import delhi from "../assets/images/delhi.png"
 import source from "../assets/images/source.png"
 import tele from "../assets/images/tele.png"
+import timer from "../assets/icons/timer.svg"
 import {
     car,
     contact,
@@ -194,5 +195,12 @@ export const projects = [
         name: "WhiteRann Resort",
         description: "Developed a responsive portfolio website for a resort using HTML, CSS, and Vanilla JavaScript, enhanced with smooth scrolling and animations using GSAP, Locomotive.js, and ScrollTrigger, and implemented interactive elements with Swiper.js, including direct contact features via WhatsApp and calling functionality.'",
         link: 'http://whiterann.everyseva.com/',
+    },
+    {
+        iconUrl: timer,
+        theme: 'btn-back-red',
+        name: "Pomodoro Timer",
+        description: "Developed a responsive Pomodoro timer web app with study, break, and long break modes, featuring background video and music that auto-stops, built using HTML, CSS, JavaScript, and GSAP for smooth animations.",
+        link: 'https://pomodoro.everyseva.com/',
     },
 ];
