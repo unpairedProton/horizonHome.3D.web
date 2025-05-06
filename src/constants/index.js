@@ -38,6 +38,7 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
+
     },
     {
         imageUrl: git,
@@ -125,6 +126,23 @@ export const experiences = [
             "Website Performance Optimization – Improved website speed and responsiveness, ensuring a seamless shopping experience.",
             "Client Projects – Worked with multiple clients, delivering custom web development solutions based on their unique needs.",
         ],
+        techStack: ["HTML5",
+            "CSS3",
+            "JavaScript",
+            "React.js",
+            "TailwindCSS",
+            "Bootstrap",
+            "WordPress",
+            "Git",
+            "GitHub",
+            "Figma",
+            "Google Tag Manager",
+        ],
+        OtherSkills: 
+        ["Troubleshooting",
+             "Planning",
+              "Public Handling",
+               "Fast Learner"]  
     },
     {
         title: "Technical Support Engineer",
@@ -139,6 +157,20 @@ export const experiences = [
             "Maintained a positive and professional rapport with customers throughout their interactions.",
             " Proficient in utilizing various communication and technical support tools like CustomerOne, Omni Agent Console and Bomgar."
         ],
+        techStack: ["Omni Agent Console",
+            "Bomgar",
+            "CustomerOne",
+            "JIRA",
+            "Illustrator",
+            "InDesign",
+            "Adobe Cloud",
+        ],
+        OtherSkills: 
+        ["Troubleshooting",
+        "Debugging",
+             "Multitasking",
+              "Public Handling",
+               "Efficient Communication",]  
     },
     {
         title: "Technical Support Engineer",
@@ -153,6 +185,22 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
             "FLXpoint Expertise: Guided customers on effective tool utilization through troubleshooting and solution implementation."
         ],
+        techStack: ["Flxpoint",
+            "Bomgar",
+            "REST API",
+            "POSTMAN",
+            "JIRA",
+            "Shopify",
+            "BigCommerce",
+            "WooCommerce",
+        ],
+        OtherSkills: 
+        ["Troubleshooting",
+        "Debugging",
+             "Multitasking",
+              "Public Handling",
+               "Efficient Communication",  
+               "Emailing"]  
     },
 ];
 
@@ -181,6 +229,7 @@ export const projects = [
         name: 'Its Show Time',
         description: 'An online movie streaming platform using React.js and MUI for a user-friendly UI and API, resulting in 37% faster content loading times, established seamless single-page application navigation with React Router DOM and deployment on Netlify. ',
         link: 'https://itshowtime.netlify.app/',
+        stack: ['React.js', 'MUI', 'Redux',"React Router DOM", 'Netlify',"Rest API"],
     },
     {
         iconUrl: threads,
@@ -188,6 +237,7 @@ export const projects = [
         name: 'E-commerce Admin Panel',
         description: "An e-commerce admin panel with CRUD operations via API, built using React.js, Tailwind CSS, and navigation with React Router and efficient state management via Context API, hosted successfully on a Hostinger subdomain, achieving 99.99% uptime." ,
         link: 'http://ecommerce.everyseva.com/',
+        stack: ['React.js', 'TailwindCss', 'Context Api',"React Router DOM","Rest API","Hostinger","Sub-domain"],
     },
     {
         iconUrl: car,
@@ -195,5 +245,6 @@ export const projects = [
         name: "WhiteRann Resort",
         description: "Developed a responsive portfolio website for a resort using HTML, CSS, and Vanilla JavaScript, enhanced with smooth scrolling and animations using GSAP, Locomotive.js, and ScrollTrigger, and implemented interactive elements with Swiper.js, including direct contact features via WhatsApp and calling functionality.'",
         link: 'http://whiterann.everyseva.com/',
+        stack: ['Html5', 'Css3', 'Vanilla js',"GSAP","Locomiotive","Swiper","ScrollTrigger","Hostinger","Sub-domain"],
     }
 ];

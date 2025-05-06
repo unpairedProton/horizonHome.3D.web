@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
-import Sidebar from "../components/FloatingBtn";
+import FloatingBtn from "../components/FloatingBtn";
 
 
 const Projects = () => {
   return (
     <section className='max-container'>
-      <Sidebar></Sidebar>
+      <FloatingBtn/>
       <h1 className='head-text'>
         My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
@@ -40,7 +40,15 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
+              <div className="flex flex-wrap mt-2 gap-1" >{
+              project.stack.map((item,i)=>(
+                <div className="p-1 border bg-white text-sm rounded-lg  text-zinc-700 border-zinc-800">
+                {item}
+              </div>
+              ))
+                }</div>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
+                
                 <Link
                   to={project.link}
                   target='_blank'
